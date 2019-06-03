@@ -8,7 +8,7 @@ import java.awt.FlowLayout;
 import javax.swing.JComboBox;
 public class Main {
 
-//salut connard
+
 
 public static void main(String[] args){
 	
