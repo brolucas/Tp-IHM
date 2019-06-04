@@ -11,16 +11,33 @@ public class Figure{
 	
 	private int nbrP;
 	private int nbrA ;
-	private String forme ; 
+	private String forme ;
+	private float x ;
+	private float y ; 
 	
-// TODO Accesseurs 
+// TODO Createur 
 public Figure(int nbrP, int nbrA,String forme){
 this.nbrP = nbrP;
 this.nbrA = nbrA;
 this.forme = forme ;
+// TODO Accesseurs 	
+}
+public float getx(){
+	return x ;
+
+}
+public void setx(float x){
+	this.x = x ;
 	
 }
+public float gety(){
+	return y ;
 
+}
+public void sety(float y){
+	this.y = y ;
+	
+}
 public int getnbrP(){
 	return nbrP ;
 
