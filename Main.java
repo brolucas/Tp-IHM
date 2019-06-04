@@ -6,6 +6,7 @@ import java.awt.Graphics;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import javax.swing.JComboBox;
+import java.awt.Point; 
 public class Main {
 
 
@@ -46,6 +47,7 @@ public static void main(String[] args){
 	
 	// TODO afficher JFrame
 	Fen.setVisible(true);
+	
 	
 }
 
