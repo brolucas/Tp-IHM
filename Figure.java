@@ -16,10 +16,12 @@ public class Figure{
 	private float y ; 
 	
 // TODO Createur 
-public Figure(int nbrP, int nbrA,String forme){
+public Figure(int nbrP, int nbrA,String forme, float x, float y){
 this.nbrP = nbrP;
 this.nbrA = nbrA;
 this.forme = forme ;
+this.x = x ;
+this.y = y ;
 // TODO Accesseurs 	
 }
 public float getx(){
@@ -66,9 +68,9 @@ public String getforme(){
 
 public static void main(String[] args){
 	// TODO remplir l'ArrayList
-	Figure rectangle = new Figure(4,4,"rectangle") ;
-	Figure Triangle = new Figure(3,3,"Triangle");
-	Figure Cercle = new Figure(1,0,"Cercle");
+	Figure rectangle = new Figure(4,4,"rectangle",0,0) ;
+	Figure Triangle = new Figure(3,3,"Triangle",0,0);
+	Figure Cercle = new Figure(1,0,"Cercle",0,0);
 	//ListeFig.add(rectangle);
 	//ListeFig.add(Triangle);
 	//ListeFig.add(Cercle);
