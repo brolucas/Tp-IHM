@@ -1,5 +1,7 @@
 # Tp-IHM
 TP Paint
-pour Eecutele programme il faut \d
-javac Fenetre.java \d
+pour Eecutele programme il faut  
+
+javac Fenetre.java  
+
 java Fenetre
